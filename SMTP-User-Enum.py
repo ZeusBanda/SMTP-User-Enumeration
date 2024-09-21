@@ -4,7 +4,7 @@ import socket
 import sys
 
 if len(sys.argv) != 3:
-    print("Usage: SMTP-User-Enum.py <username> <target_ip>")
+    print("Usage: sys.argv[0] <username> <target_ip>")
     sys.exit(0)
 
 # Create a Socket
